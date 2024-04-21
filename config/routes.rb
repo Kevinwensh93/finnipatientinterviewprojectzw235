@@ -7,4 +7,10 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "posts#index"
+
+  resources :patients do
+    resources :addresses
+    resources :custom_field_values
+  end
+  resources :custom_fields
 end

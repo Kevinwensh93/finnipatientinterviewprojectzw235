@@ -1,0 +1,2 @@
+class CustomFieldValuesController < ApplicationController
+end
