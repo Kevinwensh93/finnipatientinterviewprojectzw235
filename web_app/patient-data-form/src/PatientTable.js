@@ -122,17 +122,23 @@ function PatientTable() {
                 <tbody>
                     {patients.map(patient => (
                         <React.Fragment key={patient.id}>
-                            <tr onClick={() => toggleRowExpansion(patient.id)}>
-                                <td>{patient.first_name}</td>
-                                <td>{patient.last_name}</td>
-                                <td>{patient.date_of_birth}</td>
-                                <td>{patient.status}</td>
+                        <tr key={patient.id}>
+                            <td>{editingPatientId === patient.id ? <input type="text" name="first_name" value={patient.first_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.first_name}</td>
+                            <td>{editingPatientId === patient.id ? <input type="text" name="last_name" value={patient.last_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.last_name}</td>
+                            <td>{editingPatientId === patient.id ? <input type="date" name="date_of_birth" value={patient.date_of_birth} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.date_of_birth}</td>
+                            <td>{editingPatientId === patient.id ? <select name="status" value={patient.status} onChange={(e) => handleInputChangeEditRow(e, patient.id)}>
+                                <option value="inquiry">Inquiry</option>
+                                <option value="onboarding">Onboarding</option>
+                                <option value="active">Active</option>
+                                <option value="churned">Churned</option>
+                            </select> : patient.status}</td>
                                 <td>
                                     {editingPatientId === patient.id ? (
                                         <button className="button button-success" onClick={() => saveEditedPatient(patient)}>Save</button>
                                     ) : (
                                         <>
                                             <button className="button" onClick={() => startEditing(patient.id)}>Edit</button>
+                                            <button className="button" onClick={() => toggleRowExpansion(patient.id)}>Details</button>
                                             <button className="button button-danger" onClick={() => deletePatient(patient.id)}>DEL</button>
                                         </>
                                     )}
