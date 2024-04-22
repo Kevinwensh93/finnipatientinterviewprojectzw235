@@ -4,11 +4,12 @@ import './App.css';  // Make sure your CSS file is correctly linked here
 function PatientTable() {
     const [patients, setPatients] = useState([]);
     const [newPatient, setNewPatient] = useState({
-        firstName: '',
-        lastName: '',
-        dateOfBirth: '',
+        first_name: '',
+        last_name: '',
+        date_of_birth: '',
         status: 'inquiry'  // Default status or could be empty if you prefer
     });
+    const [editingPatientId, setEditingPatientId] = useState(null);
 
     useEffect(() => {
         fetch('http://localhost:3000/patients')
@@ -17,11 +18,24 @@ function PatientTable() {
             .catch(error => console.error('Error fetching data: ', error));
     }, []);
 
-    const handleInputChange = (e) => {
+    const handleInputChangeNewPatient = (e) => {
         const { name, value } = e.target;
         setNewPatient(prevState => ({
             ...prevState,
             [name]: value
+        }));
+    };
+
+    const handleInputChangeEditRow = (e, id) => {
+        const { name, value } = e.target;
+        setPatients(prevPatients => prevPatients.map(patient => {
+            if (patient.id === id) {
+                return {
+                    ...patient,
+                    [name]: value
+                };
+            }
+            return patient;
         }));
     };
 
@@ -47,18 +61,41 @@ function PatientTable() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                first_name: newPatient.firstName,
-                last_name: newPatient.lastName,
-                date_of_birth: newPatient.dateOfBirth,
+                first_name: newPatient.first_name,
+                last_name: newPatient.last_name,
+                date_of_birth: newPatient.date_of_birth,
                 status: newPatient.status
             })
         })
         .then(response => response.json())
         .then(data => {
             setPatients([...patients, data]);
-            setNewPatient({ firstName: '', lastName: '', dateOfBirth: '', status: 'inquiry' }); // Reset form
+            setNewPatient({ first_name: '', last_name: '', date_of_birth: '', status: 'inquiry' }); // Reset form
         })
         .catch(error => console.error('Error adding patient:', error));
+    };
+
+    const startEditing = (id) => {
+        setEditingPatientId(id);
+    };
+
+    const saveEditedPatient = (patient) => {
+        fetch(`http://localhost:3000/patients/${patient.id}`, {
+            method: 'PATCH',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify(patient)
+        })
+        .then(response => {
+            if (response.ok) {
+                console.log(`Patient with ID ${patient.id} successfully updated.`);
+                setEditingPatientId(null);
+            } else {
+                throw new Error('Failed to update patient.');
+            }
+        })
+        .catch(error => console.error('Error updating patient:', error));
     };
 
     return (
@@ -77,56 +114,50 @@ function PatientTable() {
                 <tbody>
                     {patients.map(patient => (
                         <tr key={patient.id}>
-                            <td>{patient.first_name}</td>
-                            <td>{patient.last_name}</td>
-                            <td>{patient.date_of_birth}</td>
-                            <td>{patient.status}</td>
+                            <td>{editingPatientId === patient.id ? <input type="text" name="first_name" value={patient.first_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.first_name}</td>
+                            <td>{editingPatientId === patient.id ? <input type="text" name="last_name" value={patient.last_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.last_name}</td>
+                            <td>{editingPatientId === patient.id ? <input type="date" name="date_of_birth" value={patient.date_of_birth} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.date_of_birth}</td>
+                            <td>{editingPatientId === patient.id ? <select name="status" value={patient.status} onChange={(e) => handleInputChangeEditRow(e, patient.id)}>
+                                <option value="inquiry">Inquiry</option>
+                                <option value="onboarding">Onboarding</option>
+                                <option value="active">Active</option>
+                                <option value="churned">Churned</option>
+                            </select> : patient.status}</td>
                             <td>
-                                <button className="button button-danger" onClick={() => deletePatient(patient.id)}>
-                                    DEL
-                                </button>
+                                {editingPatientId === patient.id ? (
+                                    <>
+                                        <button className="button button-success" onClick={() => saveEditedPatient(patient)}>Save</button>
+                                        <button className="button" onClick={() => setEditingPatientId(null)}>Cancel</button>
+                                    </>
+                                ) : (
+                                    <>
+                                        <button className="button" onClick={() => startEditing(patient.id)}>Edit</button>
+                                        <button className="button button-danger" onClick={() => deletePatient(patient.id)}>DEL</button>
+                                    </>
+                                )}
                             </td>
                         </tr>
                     ))}
                 </tbody>
+                <tfoot>
+                    <tr>
+                        <td><input className="form-input" type="text" name="first_name" value={newPatient.first_name} onChange={handleInputChangeNewPatient} placeholder="First Name" /></td>
+                        <td><input className="form-input" type="text" name="last_name" value={newPatient.last_name} onChange={handleInputChangeNewPatient} placeholder="Last Name" /></td>
+                        <td><input className="form-input" type="date" name="date_of_birth" value={newPatient.date_of_birth} onChange={handleInputChangeNewPatient} /></td>
+                        <td>
+                            <select className="form-input" name="status" value={newPatient.status} onChange={handleInputChangeNewPatient}>
+                                <option value="inquiry">Inquiry</option>
+                                <option value="onboarding">Onboarding</option>
+                                <option value="active">Active</option>
+                                <option value="churned">Churned</option>
+                            </select>
+                        </td>
+                        <td>
+                            <button className="button" onClick={addPatient}>Add Patient</button>
+                        </td>
+                    </tr>
+                </tfoot>
             </table>
-            <div className="form-inputs">
-                <input
-                    className="form-input"
-                    type="text"
-                    name="firstName"
-                    value={newPatient.firstName}
-                    onChange={handleInputChange}
-                    placeholder="First Name"
-                />
-                <input
-                    className="form-input"
-                    type="text"
-                    name="lastName"
-                    value={newPatient.lastName}
-                    onChange={handleInputChange}
-                    placeholder="Last Name"
-                />
-                <input
-                    className="form-input"
-                    type="date"
-                    name="dateOfBirth"
-                    value={newPatient.dateOfBirth}
-                    onChange={handleInputChange}
-                />
-                <select
-                    className="form-input"
-                    name="status"
-                    value={newPatient.status}
-                    onChange={handleInputChange}
-                >
-                    <option value="inquiry">Inquiry</option>
-                    <option value="onboarding">Onboarding</option>
-                    <option value="active">Active</option>
-                    <option value="churned">Churned</option>
-                </select>
-                <button className="button" onClick={addPatient}>Add Patient</button>
-            </div>
         </div>
     );
 }
