@@ -3,8 +3,6 @@ Rails.application.routes.draw do
 
   resources :patients do
     resources :addresses, except: [:new, :edit] 
-    resources :custom_field_values, except: [:new, :edit]
+    resources :custom_fields, except: [:new, :edit]
   end
-
-  resources :custom_fields, except: [:new, :edit]
 end
