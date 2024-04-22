@@ -3146,3 +3146,1328 @@ Processing by CustomFieldsController#index as */*
 Completed 200 OK in 15ms (Views: 5.8ms | ActiveRecord: 2.6ms | Allocations: 12051)
 
 
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1232)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 14ms (Views: 5.4ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 875)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:24 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:24 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:24 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:13:24 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:13:25 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 7.8ms | ActiveRecord: 0.4ms | Allocations: 12681)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:13:25 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.3ms | ActiveRecord: 0.2ms | Allocations: 1444)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:14:46 -0400
+Started GET "/patients" for ::1 at 2024-04-22 05:14:46 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 0.3ms | Allocations: 1417)
+
+
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 881)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:04 -0400
+Started GET "/patients" for ::1 at 2024-04-22 05:15:04 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+Processing by PatientsController#index as */*
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mPatient Load (0.4ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.6ms | Allocations: 1981)
+
+
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 2783)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:04 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1410)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:04 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 1410)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:10 -0400
+Started GET "/patients" for ::1 at 2024-04-22 05:15:10 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.0ms | Allocations: 1527)
+
+
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 2230)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:10 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.1ms | Allocations: 1309)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:12 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:12 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:15 -0400
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:15 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.5ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 9ms (Views: 1.7ms | ActiveRecord: 0.6ms | Allocations: 1433)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:15 -0400
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 1670)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:15 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1426)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1309)
+
+
+Started POST "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:20 -0400
+Processing by CustomFieldsController#create as */*
+  Parameters: {"name"=>"Test", "value"=>"123", "patient_id"=>"39", "custom_field"=>{"name"=>"Test", "value"=>"123"}}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+  [1m[36mCustomField Create (1.6ms)[0m  [1m[32mINSERT INTO "custom_fields" ("name", "value", "patient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "Test"], ["value", "123"], ["patient_id", 39], ["created_at", "2024-04-22 09:15:20.151031"], ["updated_at", "2024-04-22 09:15:20.151031"]]
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+Redirected to http://localhost:3000/patients/39/custom_fields
+Completed 302 Found in 10ms (ActiveRecord: 2.8ms | Allocations: 2959)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:20 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39", "custom_field"=>{}}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.2ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 1.7ms | ActiveRecord: 0.4ms | Allocations: 1391)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 875)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 6.0ms | ActiveRecord: 0.2ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (1.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.5ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 6ms (Views: 2.2ms | ActiveRecord: 0.3ms | Allocations: 1552)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:22 -0400
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.2ms | Allocations: 1415)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:22 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 1399)
+
+
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.0ms | Allocations: 1410)
+
+
+Started POST "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:27 -0400
+Processing by CustomFieldsController#create as */*
+  Parameters: {"name"=>"Test", "value"=>"123", "patient_id"=>"39", "custom_field"=>{"name"=>"Test", "value"=>"123"}}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+  [1m[36mCustomField Create (1.5ms)[0m  [1m[32mINSERT INTO "custom_fields" ("name", "value", "patient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "Test"], ["value", "123"], ["patient_id", 39], ["created_at", "2024-04-22 09:15:27.026199"], ["updated_at", "2024-04-22 09:15:27.026199"]]
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:16:in `create'
+Redirected to http://localhost:3000/patients/39/custom_fields
+Completed 302 Found in 8ms (ActiveRecord: 1.9ms | Allocations: 2657)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:27 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 1473)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:15:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:30 -0400
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:30 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+Processing by AddressesController#index as */*
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 5ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 1481)
+
+
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.3ms | Allocations: 1901)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:15:30 -0400
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:15:30 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 2595)
+
+
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 2692)
+
+
+Started DELETE "/patients/39/custom_fields/4" for ::1 at 2024-04-22 05:16:01 -0400
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for CustomFieldsController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.10) lib/rack/etag.rb:29:in `call'
+rack (3.0.10) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.10) lib/rack/head.rb:15:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.10) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.10) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started DELETE "/patients/39/custom_fields/4" for ::1 at 2024-04-22 05:16:01 -0400
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for CustomFieldsController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.10) lib/rack/etag.rb:29:in `call'
+rack (3.0.10) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.10) lib/rack/head.rb:15:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.10) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.10) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started DELETE "/patients/39/custom_fields/4" for ::1 at 2024-04-22 05:16:02 -0400
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for CustomFieldsController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.10) lib/rack/etag.rb:29:in `call'
+rack (3.0.10) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.10) lib/rack/head.rb:15:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.10) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.10) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:16:25 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:26:in `set_patient'
+  [1m[36mCustomField Load (0.2ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.3ms | Allocations: 1473)
+
+
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:16:48 -0400
+  
+AbstractController::ActionNotFound (The action 'destroy' could not be found for CustomFieldsController):
+  
+actionpack (7.1.3.2) lib/abstract_controller/base.rb:155:in `process'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:227:in `dispatch'
+actionpack (7.1.3.2) lib/action_controller/metal.rb:309:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:51:in `block in serve'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:131:in `block in find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `each'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:124:in `find_routes'
+actionpack (7.1.3.2) lib/action_dispatch/journey/router.rb:32:in `serve'
+actionpack (7.1.3.2) lib/action_dispatch/routing/route_set.rb:882:in `call'
+rack (3.0.10) lib/rack/etag.rb:29:in `call'
+rack (3.0.10) lib/rack/conditional_get.rb:43:in `call'
+rack (3.0.10) lib/rack/head.rb:15:in `call'
+activerecord (7.1.3.2) lib/active_record/migration.rb:655:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+activesupport (7.1.3.2) lib/active_support/callbacks.rb:101:in `run_callbacks'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/callbacks.rb:28:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/actionable_exceptions.rb:16:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/debug_exceptions.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (7.1.3.2) lib/rails/rack/logger.rb:37:in `call_app'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `block in tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:39:in `tagged'
+activesupport (7.1.3.2) lib/active_support/tagged_logging.rb:135:in `tagged'
+activesupport (7.1.3.2) lib/active_support/broadcast_logger.rb:240:in `method_missing'
+railties (7.1.3.2) lib/rails/rack/logger.rb:24:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/remote_ip.rb:92:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/request_id.rb:28:in `call'
+rack (3.0.10) lib/rack/runtime.rb:24:in `call'
+activesupport (7.1.3.2) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:59:in `block in call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:24:in `collect_events'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/server_timing.rb:58:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/static.rb:25:in `call'
+rack (3.0.10) lib/rack/sendfile.rb:114:in `call'
+actionpack (7.1.3.2) lib/action_dispatch/middleware/host_authorization.rb:141:in `call'
+rack-cors (2.0.2) lib/rack/cors.rb:102:in `call'
+railties (7.1.3.2) lib/rails/engine.rb:536:in `call'
+puma (6.4.2) lib/puma/configuration.rb:272:in `call'
+puma (6.4.2) lib/puma/request.rb:100:in `block in handle_request'
+puma (6.4.2) lib/puma/thread_pool.rb:378:in `with_force_shutdown'
+puma (6.4.2) lib/puma/request.rb:99:in `handle_request'
+puma (6.4.2) lib/puma/server.rb:464:in `process_client'
+puma (6.4.2) lib/puma/server.rb:245:in `block in run'
+puma (6.4.2) lib/puma/thread_pool.rb:155:in `block in spawn_thread'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:17:20 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.5ms | Allocations: 7085)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:17:20 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms | Allocations: 1353)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:17:26 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+  [1m[36mCustomField Load (0.2ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 12ms (Views: 7.4ms | ActiveRecord: 1.0ms | Allocations: 4477)
+
+
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:17:30 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.1ms | Allocations: 1351)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:17:32 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:6:in `index'
+Completed 200 OK in 4ms (Views: 2.4ms | ActiveRecord: 0.2ms | Allocations: 1473)
+
+
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:17:44 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms | Allocations: 1350)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:18:05 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 1.5ms | Allocations: 7013)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:18:06 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:31:in `set_patient'
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.1ms | Allocations: 1354)
+
+
+  
+NoMethodError (undefined method `destroy' for nil:NilClass
+
+        @custom_field.destroy
+                     ^^^^^^^^):
+  
+app/controllers/custom_fields_controller.rb:24:in `destroy'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:19:11 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 37], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mCustomField Destroy (0.3ms)[0m  [1m[31mDELETE FROM "custom_fields" WHERE "custom_fields"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 1.9ms | Allocations: 11460)
+
+
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:19:12 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 37], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+Completed 404 Not Found in 3ms (ActiveRecord: 0.2ms | Allocations: 1425)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find CustomField with 'id'=1 [WHERE "custom_fields"."patient_id" = ?]):
+  
+app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+Started DELETE "/patients/37/custom_fields/1" for ::1 at 2024-04-22 05:19:12 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient_id"=>"37", "id"=>"1", "custom_field"=>{}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 37], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+Completed 404 Not Found in 4ms (ActiveRecord: 0.2ms | Allocations: 1387)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find CustomField with 'id'=1 [WHERE "custom_fields"."patient_id" = ?]):
+  
+app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:19:16 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.2ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 4.7ms | ActiveRecord: 0.3ms | Allocations: 1707)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 3.9ms | Allocations: 7100)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 890)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.3ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:22 -0400
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:19:22 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+Processing by CustomFieldsController#index as */*
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (1.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 18ms (Views: 6.9ms | ActiveRecord: 0.6ms | Allocations: 9745)
+
+
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 20ms (Views: 4.6ms | ActiveRecord: 1.8ms | Allocations: 12933)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:19:22 -0400
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:22 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.1ms | ActiveRecord: 0.2ms | Allocations: 2322)
+
+
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 3054)
+
+
+Started DELETE "/patients/39/custom_fields/4" for ::1 at 2024-04-22 05:19:25 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"patient_id"=>"39", "id"=>"4"}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.2ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 39], ["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mCustomField Destroy (0.8ms)[0m  [1m[31mDELETE FROM "custom_fields" WHERE "custom_fields"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 1.9ms | Allocations: 3011)
+
+
+Started DELETE "/patients/39/custom_fields/3" for ::1 at 2024-04-22 05:19:25 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"patient_id"=>"39", "id"=>"3"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 39], ["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mCustomField Destroy (1.7ms)[0m  [1m[31mDELETE FROM "custom_fields" WHERE "custom_fields"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+Completed 204 No Content in 10ms (ActiveRecord: 2.5ms | Allocations: 2848)
+
+
+Started POST "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:26 -0400
+Processing by CustomFieldsController#create as */*
+  Parameters: {"name"=>"", "value"=>"", "patient_id"=>"39", "custom_field"=>{"name"=>"", "value"=>""}}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+  [1m[36mCustomField Create (2.0ms)[0m  [1m[32mINSERT INTO "custom_fields" ("name", "value", "patient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", ""], ["value", ""], ["patient_id", 39], ["created_at", "2024-04-22 09:19:26.921854"], ["updated_at", "2024-04-22 09:19:26.921854"]]
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+Completed 201 Created in 14ms (Views: 2.8ms | ActiveRecord: 2.8ms | Allocations: 3317)
+
+
+Started DELETE "/patients/39/custom_fields/5" for ::1 at 2024-04-22 05:19:28 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"patient_id"=>"39", "id"=>"5"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 39], ["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mCustomField Destroy (1.2ms)[0m  [1m[31mDELETE FROM "custom_fields" WHERE "custom_fields"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 3060)
+
+
+Started POST "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:29 -0400
+Processing by CustomFieldsController#create as */*
+  Parameters: {"name"=>"123", "value"=>"123123", "patient_id"=>"39", "custom_field"=>{"name"=>"123", "value"=>"123123"}}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+  [1m[36mCustomField Create (1.6ms)[0m  [1m[32mINSERT INTO "custom_fields" ("name", "value", "patient_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?) RETURNING "id"[0m  [["name", "123"], ["value", "123123"], ["patient_id", 39], ["created_at", "2024-04-22 09:19:29.736838"], ["updated_at", "2024-04-22 09:19:29.736838"]]
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:19:in `create'
+Completed 201 Created in 10ms (Views: 0.6ms | ActiveRecord: 2.2ms | Allocations: 2777)
+
+
+Started DELETE "/patients/39/custom_fields/6" for ::1 at 2024-04-22 05:19:30 -0400
+Processing by CustomFieldsController#destroy as */*
+  Parameters: {"patient_id"=>"39", "id"=>"6"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ? AND "custom_fields"."id" = ? LIMIT ?[0m  [["patient_id", 39], ["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:48:in `set_custom_field'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mCustomField Destroy (1.1ms)[0m  [1m[31mDELETE FROM "custom_fields" WHERE "custom_fields"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/custom_fields_controller.rb:37:in `destroy'
+Completed 204 No Content in 10ms (ActiveRecord: 1.7ms | Allocations: 2848)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:55 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 2.1ms | ActiveRecord: 1.3ms | Allocations: 7100)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:56 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 890)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:19:56 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:57 -0400
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:19:57 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 11ms (Views: 4.1ms | ActiveRecord: 0.7ms | Allocations: 3726)
+
+
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+Started GET "/patients/39/custom_fields" for ::1 at 2024-04-22 05:19:57 -0400
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 3.0ms | ActiveRecord: 0.3ms | Allocations: 7692)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1772)
+
+
+Started GET "/patients/39/addresses" for ::1 at 2024-04-22 05:19:57 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"39"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 39], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 39]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 1411)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:03 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 880)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:04 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:04 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 875)
+
+
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:20:05 -0400
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:20:05 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.6ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 7ms (Views: 2.0ms | ActiveRecord: 0.6ms | Allocations: 1324)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:20:05 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.1ms | Allocations: 3725)
+
+
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:20:05 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 1325)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1397)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:20:32 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.1ms | Allocations: 1315)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:38 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.3ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:20:38 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 5.2ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:20:40 -0400
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:20:40 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 10ms (Views: 1.5ms | ActiveRecord: 0.2ms | Allocations: 1408)
+
+
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:20:40 -0400
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1498)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:20:40 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 1421)
+
+
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1315)
+
+
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:20:50 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1397)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:21:04 -0400
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:21:04 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 1330)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:21:04 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1425)
+
+
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:21:04 -0400
+  [1m[36mAddress Load (0.0ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1520)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1397)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:21:05 -0400
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:21:05 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 5ms (Views: 2.4ms | ActiveRecord: 0.4ms | Allocations: 1317)
+
+
+Started GET "/patients/37/addresses" for ::1 at 2024-04-22 05:21:05 -0400
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.1ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.2ms | Allocations: 1410)
+
+
+Started GET "/patients/37/custom_fields" for ::1 at 2024-04-22 05:21:05 -0400
+Processing by AddressesController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/addresses_controller.rb:44:in `set_patient'
+  [1m[36mAddress Load (0.1ms)[0m  [1m[34mSELECT "addresses".* FROM "addresses" WHERE "addresses"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/addresses_controller.rb:8:in `index'
+Completed 200 OK in 3ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1326)
+
+
+Processing by CustomFieldsController#index as */*
+  Parameters: {"patient_id"=>"37"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 37], ["LIMIT", 1]]
+  ↳ app/controllers/custom_fields_controller.rb:44:in `set_patient'
+  [1m[36mCustomField Load (0.0ms)[0m  [1m[34mSELECT "custom_fields".* FROM "custom_fields" WHERE "custom_fields"."patient_id" = ?[0m  [["patient_id", 37]]
+  ↳ app/controllers/custom_fields_controller.rb:8:in `index'
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1397)
+
+
