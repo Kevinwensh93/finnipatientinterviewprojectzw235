@@ -4471,3 +4471,87 @@ Processing by CustomFieldsController#index as */*
 Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1397)
 
 
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.8ms | ActiveRecord: 0.1ms | Allocations: 875)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:28 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 05:21:29 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 7ms (Views: 5.9ms | ActiveRecord: 0.1ms | Allocations: 874)
+
+
