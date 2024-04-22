@@ -633,3 +633,1413 @@ Processing by PatientsController#index as */*
 Completed 200 OK in 19ms (Views: 7.4ms | ActiveRecord: 1.1ms | Allocations: 24316)
 
 
+Started GET "/patients" for ::1 at 2024-04-22 01:19:07 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.7ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 1.8ms | ActiveRecord: 1.2ms | Allocations: 6576)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:19:08 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.2ms | Allocations: 823)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:25:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.7ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 1.1ms | Allocations: 1085)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:25:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:28:53 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 803)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:28:53 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:28:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:28:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:29:03 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 3.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:29:03 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (1.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.6ms | ActiveRecord: 1.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:29:05 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.2ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:29:05 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:31:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:31:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:31:57 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:31:57 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:32:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:32:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:32:16 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:32:16 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:34:11 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:34:11 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/" for ::1 at 2024-04-22 01:35:06 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/kevinwen/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/kevinwen/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.1.3.2/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.4ms | Allocations: 382)
+Completed 200 OK in 8ms (Views: 1.8ms | ActiveRecord: 0.0ms | Allocations: 4461)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:07 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 942)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:07 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:13 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.4ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.4ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (1.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 2.2ms | ActiveRecord: 1.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:36:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.9ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:38:52 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:38:52 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:38:54 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:38:54 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:21 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:23 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:37 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:39:37 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:15 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:36 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 792)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:39 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:41 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:41 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:42 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.7ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:42 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:42 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:42 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:40:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:45 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:45 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:52 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:41:52 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.3ms | ActiveRecord: 0.1ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:42:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:42:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:42:25 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:42:25 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 791)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:43:25 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 21ms (Views: 8.2ms | ActiveRecord: 1.3ms | Allocations: 24269)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:43:25 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 893)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:43:27 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 810)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:43:27 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 793)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:44:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 805)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:44:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 792)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:44:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:44:58 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:45:17 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.6ms | ActiveRecord: 0.1ms | Allocations: 804)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:45:17 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:45:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.0ms | Allocations: 804)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:45:20 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 792)
+
+
+Started DELETE "/patients" for ::1 at 2024-04-22 01:46:35 -0400
+  
+ActionController::RoutingError (No route matches [DELETE] "/patients"):
+  
+Started DELETE "/patients/1" for ::1 at 2024-04-22 01:46:40 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "id"=>"1", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.1ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 16ms (ActiveRecord: 1.5ms | Allocations: 4936)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:46:43 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.2ms | Allocations: 733)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:45 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (3.7ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:45.191563"], ["updated_at", "2024-04-22 05:46:45.191563"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 15ms (Views: 1.0ms | ActiveRecord: 3.9ms | Allocations: 2891)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:46 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.5ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:46.355929"], ["updated_at", "2024-04-22 05:46:46.355929"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 7ms (Views: 1.2ms | ActiveRecord: 1.7ms | Allocations: 2112)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:46 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (2.1ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:46.884263"], ["updated_at", "2024-04-22 05:46:46.884263"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 8ms (Views: 1.7ms | ActiveRecord: 2.3ms | Allocations: 2112)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:47 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (3.5ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:47.380784"], ["updated_at", "2024-04-22 05:46:47.380784"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 12ms (Views: 2.7ms | ActiveRecord: 3.8ms | Allocations: 2108)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:47 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (2.0ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:47.857283"], ["updated_at", "2024-04-22 05:46:47.857283"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 8ms (Views: 0.5ms | ActiveRecord: 2.3ms | Allocations: 2112)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:46:48 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active", "patient"=>{"first_name"=>"John", "middle_name"=>"Quincy", "last_name"=>"Adams", "date_of_birth"=>"1990-07-11", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.8ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "John"], ["middle_name", "Quincy"], ["last_name", "Adams"], ["date_of_birth", "1990-07-11"], ["status", 2], ["created_at", "2024-04-22 05:46:48.243526"], ["updated_at", "2024-04-22 05:46:48.243526"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 13ms (Views: 0.2ms | ActiveRecord: 2.1ms | Allocations: 2106)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:46:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1225)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:46:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.6ms | ActiveRecord: 0.1ms | Allocations: 1223)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:33 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1223)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:33 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1223)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:36 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 1223)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:36 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 1223)
+
+
+Started DELETE "/patients/2" for ::1 at 2024-04-22 01:47:37 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"2"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.1ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 2]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.4ms | Allocations: 2073)
+
+
+Started DELETE "/patients/3" for ::1 at 2024-04-22 01:47:38 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"3"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 3], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 3]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 1.9ms | Allocations: 2069)
+
+
+Started DELETE "/patients/4" for ::1 at 2024-04-22 01:47:39 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"4"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 4], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 4]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 1.9ms | Allocations: 2071)
+
+
+Started DELETE "/patients/5" for ::1 at 2024-04-22 01:47:39 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"5"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 5], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (2.6ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 5]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 8ms (ActiveRecord: 3.0ms | Allocations: 2069)
+
+
+Started DELETE "/patients/6" for ::1 at 2024-04-22 01:47:39 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"6"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.7ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 6]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 9ms (ActiveRecord: 2.1ms | Allocations: 2071)
+
+
+Started DELETE "/patients/7" for ::1 at 2024-04-22 01:47:40 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"7"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 7], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 7]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 6ms (ActiveRecord: 1.8ms | Allocations: 2067)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 2.5ms | ActiveRecord: 0.2ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 1.7ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:47:51 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.1ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 0ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 0ms (Views: 0.3ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:54 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:50:54 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 0ms (Views: 0.4ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:04 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"13", "last_name"=>"123", "date_of_birth"=>"2024-04-04", "status"=>"active", "patient"=>{"first_name"=>"13", "last_name"=>"123", "date_of_birth"=>"2024-04-04", "status"=>"active"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.1ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "13"], ["middle_name", nil], ["last_name", "123"], ["date_of_birth", "2024-04-04"], ["status", 2], ["created_at", "2024-04-22 05:51:04.507175"], ["updated_at", "2024-04-22 05:51:04.507175"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 1.3ms | Allocations: 2133)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:05 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (5.3ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:05.862960"], ["updated_at", "2024-04-22 05:51:05.862960"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 16ms (Views: 0.5ms | ActiveRecord: 6.0ms | Allocations: 2090)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:06 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.2ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:06.042305"], ["updated_at", "2024-04-22 05:51:06.042305"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 14ms (Views: 0.3ms | ActiveRecord: 1.3ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:06 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.0ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:06.175568"], ["updated_at", "2024-04-22 05:51:06.175568"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 4ms (Views: 0.4ms | ActiveRecord: 1.1ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:06 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (2.8ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:06.549951"], ["updated_at", "2024-04-22 05:51:06.549951"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 12ms (Views: 0.4ms | ActiveRecord: 3.0ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:06 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (2.1ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:06.744583"], ["updated_at", "2024-04-22 05:51:06.744583"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 8ms (Views: 0.7ms | ActiveRecord: 2.3ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:06 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (0.8ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:06.934933"], ["updated_at", "2024-04-22 05:51:06.934933"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 3ms (Views: 0.4ms | ActiveRecord: 0.9ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.1ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.092726"], ["updated_at", "2024-04-22 05:51:07.092726"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 13ms (Views: 0.5ms | ActiveRecord: 1.2ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.0ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.259169"], ["updated_at", "2024-04-22 05:51:07.259169"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 11ms (Views: 0.3ms | ActiveRecord: 1.1ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (2.4ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.565454"], ["updated_at", "2024-04-22 05:51:07.565454"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 9ms (Views: 0.6ms | ActiveRecord: 2.8ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.7ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.695317"], ["updated_at", "2024-04-22 05:51:07.695317"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 6ms (Views: 0.5ms | ActiveRecord: 1.9ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.7ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.837747"], ["updated_at", "2024-04-22 05:51:07.837747"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 19ms (Views: 0.5ms | ActiveRecord: 1.9ms | Allocations: 2088)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:51:07 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>""}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (1.9ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", nil], ["created_at", "2024-04-22 05:51:07.946511"], ["updated_at", "2024-04-22 05:51:07.946511"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 9ms (Views: 0.5ms | ActiveRecord: 2.2ms | Allocations: 2089)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:51:19 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.0ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:51:19 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 2.2ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:14 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.9ms | ActiveRecord: 0.2ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.2ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 3ms (Views: 3.1ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:52:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 1.1ms | ActiveRecord: 0.1ms | Allocations: 1691)
+
+
+Started DELETE "/patients/8" for ::1 at 2024-04-22 01:52:19 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"8"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 8], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.2ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 8]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.5ms | Allocations: 2066)
+
+
+Started DELETE "/patients/9" for ::1 at 2024-04-22 01:52:19 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"9"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (4.2ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 9]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 19ms (ActiveRecord: 4.7ms | Allocations: 2065)
+
+
+Started DELETE "/patients/10" for ::1 at 2024-04-22 01:52:19 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"10"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.3ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (8.3ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 10]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 13ms (ActiveRecord: 8.9ms | Allocations: 2065)
+
+
+Started DELETE "/patients/11" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"11"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 11], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (0.5ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 11]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 3ms (ActiveRecord: 0.8ms | Allocations: 2065)
+
+
+Started DELETE "/patients/12" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"12"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (0.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 12]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 2ms (ActiveRecord: 0.6ms | Allocations: 2065)
+
+
+Started DELETE "/patients/13" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"13"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 13], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (7.7ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 13]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 15ms (ActiveRecord: 8.1ms | Allocations: 2065)
+
+
+Started DELETE "/patients/14" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"14"}
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 14], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (0.9ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 14]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 4ms (ActiveRecord: 1.1ms | Allocations: 2065)
+
+
+Started DELETE "/patients/15" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"15"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 15], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.0ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 15]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 9ms (ActiveRecord: 1.3ms | Allocations: 2065)
+
+
+Started DELETE "/patients/16" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"16"}
+  [1m[36mPatient Load (3.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 16], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 16]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 4.4ms | Allocations: 2066)
+
+
+Started DELETE "/patients/17" for ::1 at 2024-04-22 01:52:20 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"17"}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 17], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.3ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 17]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 1.8ms | Allocations: 2065)
+
+
+Started DELETE "/patients/18" for ::1 at 2024-04-22 01:52:21 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"18"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.3ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 18]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 5ms (ActiveRecord: 1.6ms | Allocations: 2065)
+
+
+Started DELETE "/patients/19" for ::1 at 2024-04-22 01:52:21 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"19"}
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 19], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.4ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 19]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 11ms (ActiveRecord: 2.6ms | Allocations: 2065)
+
+
+Started DELETE "/patients/20" for ::1 at 2024-04-22 01:52:21 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"20"}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.2ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 20]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 9ms (ActiveRecord: 1.7ms | Allocations: 2065)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:55:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:55:18 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:55:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.4ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 4ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:55:22 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.9ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:46 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.7ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 2ms (Views: 1.8ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.2ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.2ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.6ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:49 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.8ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.1ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 6ms (Views: 5.5ms | ActiveRecord: 0.1ms | Allocations: 696)
+
+
+Started GET "/patients" for ::1 at 2024-04-22 01:58:50 -0400
+Processing by PatientsController#index as */*
+  [1m[36mPatient Load (0.0ms)[0m  [1m[34mSELECT "patients".* FROM "patients"[0m
+  ↳ app/controllers/patients_controller.rb:7:in `index'
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 696)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:59:01 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"Kevin ", "last_name"=>"Wen", "date_of_birth"=>"2023-11-29", "status"=>"onboarding", "patient"=>{"first_name"=>"Kevin ", "last_name"=>"Wen", "date_of_birth"=>"2023-11-29", "status"=>"onboarding"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (0.7ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "Kevin "], ["middle_name", nil], ["last_name", "Wen"], ["date_of_birth", "2023-11-29"], ["status", 1], ["created_at", "2024-04-22 05:59:01.810329"], ["updated_at", "2024-04-22 05:59:01.810329"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 3ms (Views: 0.2ms | ActiveRecord: 0.8ms | Allocations: 2098)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:59:11 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"Kevin ", "last_name"=>"Wan", "date_of_birth"=>"2023-12-14", "status"=>"churned", "patient"=>{"first_name"=>"Kevin ", "last_name"=>"Wan", "date_of_birth"=>"2023-12-14", "status"=>"churned"}}
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (4.5ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", "Kevin "], ["middle_name", nil], ["last_name", "Wan"], ["date_of_birth", "2023-12-14"], ["status", 3], ["created_at", "2024-04-22 05:59:11.454765"], ["updated_at", "2024-04-22 05:59:11.454765"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 13ms (Views: 0.5ms | ActiveRecord: 4.7ms | Allocations: 2098)
+
+
+Started POST "/patients" for ::1 at 2024-04-22 01:59:11 -0400
+Processing by PatientsController#create as */*
+  Parameters: {"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"inquiry", "patient"=>{"first_name"=>"", "last_name"=>"", "date_of_birth"=>"", "status"=>"inquiry"}}
+  [1m[36mTRANSACTION (0.2ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mPatient Create (11.6ms)[0m  [1m[32mINSERT INTO "patients" ("first_name", "middle_name", "last_name", "date_of_birth", "status", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING "id"[0m  [["first_name", ""], ["middle_name", nil], ["last_name", ""], ["date_of_birth", nil], ["status", 0], ["created_at", "2024-04-22 05:59:11.744943"], ["updated_at", "2024-04-22 05:59:11.744943"]]
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:18:in `create'
+Completed 201 Created in 16ms (Views: 0.3ms | ActiveRecord: 11.8ms | Allocations: 2088)
+
+
+Started DELETE "/patients/23" for ::1 at 2024-04-22 01:59:13 -0400
+Processing by PatientsController#destroy as */*
+  Parameters: {"id"=>"23"}
+  [1m[36mPatient Load (0.3ms)[0m  [1m[34mSELECT "patients".* FROM "patients" WHERE "patients"."id" = ? LIMIT ?[0m  [["id", 23], ["LIMIT", 1]]
+  ↳ app/controllers/patients_controller.rb:44:in `set_patient'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mPatient Destroy (1.1ms)[0m  [1m[31mDELETE FROM "patients" WHERE "patients"."id" = ?[0m  [["id", 23]]
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+  [1m[36mTRANSACTION (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/patients_controller.rb:36:in `destroy'
+Completed 204 No Content in 7ms (ActiveRecord: 1.6ms | Allocations: 2065)
+
+
