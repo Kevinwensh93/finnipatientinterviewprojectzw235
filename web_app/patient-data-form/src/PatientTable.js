@@ -137,11 +137,25 @@ function PatientTable() {
                                     )}
                                 </td>
                             </tr>
-                            <tr>
-                                <td colSpan="4">
-                                    {expandedRow === patient.id && <PatientAddressTable patient={patient} />}
-                                </td>
-                            </tr>
+                            {expandedRow === patient.id && (
+                                <>
+                                    <tr>
+                                        <td colSpan="4">
+                                            <h4>Address Information</h4>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colSpan="4">
+                                            <PatientAddressTable patient={patient} />
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <td colSpan="3">
+                                            <h4>Custom Fields</h4>
+                                        </td>
+                                    </tr>
+                                </>
+                            )}
                         </React.Fragment>
                     ))}
                 </tbody>
