@@ -7,7 +7,7 @@ function PatientTable() {
         first_name: '',
         last_name: '',
         date_of_birth: '',
-        status: 'inquiry'  // Default status or could be empty if you prefer
+        status: 'inquiry'
     });
     const [editingPatientId, setEditingPatientId] = useState(null);
 
@@ -125,10 +125,7 @@ function PatientTable() {
                             </select> : patient.status}</td>
                             <td>
                                 {editingPatientId === patient.id ? (
-                                    <>
-                                        <button className="button button-success" onClick={() => saveEditedPatient(patient)}>Save</button>
-                                        <button className="button" onClick={() => setEditingPatientId(null)}>Cancel</button>
-                                    </>
+                                    <button className="button button-success" onClick={() => saveEditedPatient(patient)}>Save</button>
                                 ) : (
                                     <>
                                         <button className="button" onClick={() => startEditing(patient.id)}>Edit</button>
