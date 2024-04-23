@@ -99,7 +99,7 @@ function PatientAddressTable({ patient }) {
     };
 
     return (
-        <table className="table">
+        <table className="table subtable">
             <thead>
                 <tr>
                     <th>Line 1</th>

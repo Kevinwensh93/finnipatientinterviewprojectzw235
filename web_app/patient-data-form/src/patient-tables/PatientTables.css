@@ -30,6 +30,11 @@ h2 {
     background-color: #007BFF;
     color: white;
 }
+
+.table .subtable th {
+    background-color: #7F00FF;
+    color: white;
+}
   
 .table tr:nth-child(even) {
     background-color: #f2f2f2;
@@ -117,16 +122,4 @@ h2 {
   
 .button-danger:hover {
     background-color: #c82333;
-}
-
-.expanded-row td {
-    padding: 0;
-    overflow: hidden;
-    height: 0;
-    transition: height 0.3s ease;
-}
-
-.expanded-row.open td {
-    padding: 10px;
-    height: auto;
 }

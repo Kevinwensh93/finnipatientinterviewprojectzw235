@@ -124,31 +124,6 @@ function PatientTable() {
     return (
         <div className="container">
             <h2>Patient Data</h2>
-            <div className="sort-fields">
-                <input
-                    type="text"
-                    placeholder="Search..."
-                    value={filterText}
-                    onChange={(e) => setFilterText(e.target.value)}
-                />
-                <select
-                    value={sortBy}
-                    onChange={(e) => setSortBy(e.target.value)}
-                >
-                    <option value="first_name">First Name</option>
-                    <option value="last_name">Last Name</option>
-                    <option value="date_of_birth">Date of Birth</option>
-                    <option value="status">Status</option>
-                </select>
-                <select
-                    value={sortOrder}
-                    onChange={(e) => setSortOrder(e.target.value)}
-                >
-                    <option value="asc">Ascending</option>
-                    <option value="desc">Descending</option>
-                </select>
-            </div>
-            <br></br>
             <table className="table">
                 <thead>
                     <tr>
@@ -234,6 +209,32 @@ function PatientTable() {
                     </tr>
                 </tfoot>
             </table>
+            <br/>
+            <h4>Filters</h4>
+            <div className="sort-fields">
+                <input
+                    type="text"
+                    placeholder="Search..."
+                    value={filterText}
+                    onChange={(e) => setFilterText(e.target.value)}
+                />
+                <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                >
+                    <option value="first_name">First Name</option>
+                    <option value="last_name">Last Name</option>
+                    <option value="date_of_birth">Date of Birth</option>
+                    <option value="status">Status</option>
+                </select>
+                <select
+                    value={sortOrder}
+                    onChange={(e) => setSortOrder(e.target.value)}
+                >
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </div>
         </div>
     );
 }

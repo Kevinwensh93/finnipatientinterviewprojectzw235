@@ -91,7 +91,7 @@ function PatientCustomFieldTable({ patient }) {
     };
 
     return (
-        <table className="table">
+        <table className="table subtable">
             <thead>
                 <tr>
                     <th>Name</th>
