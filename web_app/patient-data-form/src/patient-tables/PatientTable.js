@@ -190,22 +190,22 @@ function PatientTable() {
                             {expandedRow === patient.id && (
                                 <>
                                     <tr>
-                                        <td colSpan="3">
-                                            <h4>Address Information</h4>
+                                        <td colSpan="6">
+                                            <b>Address Information</b>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colSpan="3">
+                                        <td colSpan="6">
                                             <PatientAddressTable patient={patient} />
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colSpan="2">
-                                            <h4>Custom Fields</h4>
+                                        <td colSpan="3">
+                                            <b>Additional information</b>
                                         </td>
                                     </tr>
                                     <tr>
-                                        <td colSpan="2">
+                                        <td colSpan="3">
                                             <PatientCustomFieldTable patient={patient} />
                                         </td>
                                     </tr>

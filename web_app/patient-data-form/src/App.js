@@ -7,7 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>React Patient Table</p>
+        <p>Finni</p>
       </header>
       <div className="content">
         <PatientTable/>
