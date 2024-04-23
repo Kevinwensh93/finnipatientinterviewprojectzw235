@@ -138,7 +138,7 @@ function PatientCustomFieldTable({ patient }) {
                         <input type="text" name="value" value={newCustomField.value} onChange={handleNewCustomFieldInputChange} />
                     </td>
                     <td>
-                        <button className="button button-success" onClick={addCustomField}>+</button>
+                        <button className="button button-success" onClick={addCustomField}>Add</button>
                     </td>
                 </tr>
             </tfoot>

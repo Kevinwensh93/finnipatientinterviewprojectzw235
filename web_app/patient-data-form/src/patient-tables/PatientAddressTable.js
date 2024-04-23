@@ -190,7 +190,7 @@ function PatientAddressTable({ patient }) {
                         <input type="text" name="country" value={newAddress.country} onChange={handleNewAddressInputChange} />
                     </td>
                     <td>
-                        <button className="button button-success" onClick={addAddress}>+</button>
+                        <button className="button button-success" onClick={addAddress}>Add</button>
                     </td>
                 </tr>
             </tfoot>

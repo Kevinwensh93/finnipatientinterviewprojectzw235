@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import './PatientTables.css';
 import PatientAddressTable from './PatientAddressTable';
 import PatientCustomFieldTable from './PatientCustomFieldTable';
-
 
 function PatientTable() {
     const [patients, setPatients] = useState([]);
@@ -14,6 +13,9 @@ function PatientTable() {
     });
     const [editingPatientId, setEditingPatientId] = useState(null);
     const [expandedRow, setExpandedRow] = useState(null); // State to track expanded row
+    const [filterText, setFilterText] = useState('');
+    const [sortBy, setSortBy] = useState('first_name');
+    const [sortOrder, setSortOrder] = useState('asc');
 
     useEffect(() => {
         fetch('http://localhost:3000/patients')
@@ -21,6 +23,19 @@ function PatientTable() {
             .then(data => setPatients(data))
             .catch(error => console.error('Error fetching data: ', error));
     }, []);
+
+    const filteredPatients = patients.filter(patient =>
+        patient.first_name.toLowerCase().includes(filterText.toLowerCase()) ||
+        patient.last_name.toLowerCase().includes(filterText.toLowerCase())
+    );
+
+    const sortedPatients = filteredPatients.slice().sort((a, b) => {
+        const aValue = a[sortBy];
+        const bValue = b[sortBy];
+        if (aValue < bValue) return sortOrder === 'asc' ? -1 : 1;
+        if (aValue > bValue) return sortOrder === 'asc' ? 1 : -1;
+        return 0;
+    });
 
     const handleInputChangeNewPatient = (e) => {
         const { name, value } = e.target;
@@ -109,9 +124,35 @@ function PatientTable() {
     return (
         <div className="container">
             <h2>Patient Data</h2>
+            <div className="sort-fields">
+                <input
+                    type="text"
+                    placeholder="Search..."
+                    value={filterText}
+                    onChange={(e) => setFilterText(e.target.value)}
+                />
+                <select
+                    value={sortBy}
+                    onChange={(e) => setSortBy(e.target.value)}
+                >
+                    <option value="first_name">First Name</option>
+                    <option value="last_name">Last Name</option>
+                    <option value="date_of_birth">Date of Birth</option>
+                    <option value="status">Status</option>
+                </select>
+                <select
+                    value={sortOrder}
+                    onChange={(e) => setSortOrder(e.target.value)}
+                >
+                    <option value="asc">Ascending</option>
+                    <option value="desc">Descending</option>
+                </select>
+            </div>
+            <br></br>
             <table className="table">
                 <thead>
                     <tr>
+                        <th></th>
                         <th>First Name</th>
                         <th>Last Name</th>
                         <th>Date of Birth</th>
@@ -120,9 +161,12 @@ function PatientTable() {
                     </tr>
                 </thead>
                 <tbody>
-                    {patients.map(patient => (
+                    {sortedPatients.map(patient => (
                         <React.Fragment key={patient.id}>
                         <tr key={patient.id}>
+                            <td>
+                                <button className="button" onClick={() => toggleRowExpansion(patient.id)}>+</button>
+                            </td>
                             <td>{editingPatientId === patient.id ? <input type="text" name="first_name" value={patient.first_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.first_name}</td>
                             <td>{editingPatientId === patient.id ? <input type="text" name="last_name" value={patient.last_name} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.last_name}</td>
                             <td>{editingPatientId === patient.id ? <input type="date" name="date_of_birth" value={patient.date_of_birth} onChange={(e) => handleInputChangeEditRow(e, patient.id)} /> : patient.date_of_birth}</td>
@@ -138,7 +182,6 @@ function PatientTable() {
                                     ) : (
                                         <>
                                             <button className="button" onClick={() => startEditing(patient.id)}>Edit</button>
-                                            <button className="button" onClick={() => toggleRowExpansion(patient.id)}>Details</button>
                                             <button className="button button-danger" onClick={() => deletePatient(patient.id)}>DEL</button>
                                         </>
                                     )}
@@ -173,6 +216,7 @@ function PatientTable() {
                 </tbody>
                 <tfoot>
                     <tr>
+                        <td></td>
                         <td><input className="form-input" type="text" name="first_name" value={newPatient.first_name} onChange={handleInputChangeNewPatient} placeholder="First Name" /></td>
                         <td><input className="form-input" type="text" name="last_name" value={newPatient.last_name} onChange={handleInputChangeNewPatient} placeholder="Last Name" /></td>
                         <td><input className="form-input" type="date" name="date_of_birth" value={newPatient.date_of_birth} onChange={handleInputChangeNewPatient} /></td>
@@ -185,7 +229,7 @@ function PatientTable() {
                             </select>
                         </td>
                         <td>
-                            <button className="button" onClick={addPatient}>Add Patient</button>
+                            <button className="button" onClick={addPatient}>Add</button>
                         </td>
                     </tr>
                 </tfoot>

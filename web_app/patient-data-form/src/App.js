@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import PatientTable from './PatientTable';
+import PatientTable from './patient-tables/PatientTable';
 
 function App() {
   return (
